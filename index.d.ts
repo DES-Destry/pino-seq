@@ -15,5 +15,4 @@ declare namespace PinoSeq {
     flush: () => Promise<Boolean>;
   };
 }
-
-export = PinoSeq;
+export { PinoSeq as default };
